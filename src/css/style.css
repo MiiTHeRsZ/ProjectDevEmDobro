@@ -83,7 +83,7 @@ body {
     background-color: #262626;
 } */
 
-.card .infoTabs {
+.card .tabsInfo {
     background-color: #262626;
 }
 
@@ -91,34 +91,34 @@ body {
     background-color: #414141;
 }
 
-.infoTabs .info {
+.tabsInfo .info {
     min-height: 26rem;
     padding: 1.5rem;
     display: none;
 }
 
-.infoTabs .info.selected {
+.tabsInfo .info.selected {
     display: block;
 }
 
-.infoTabs .subTitle{
+.tabsInfo .subTitle{
     font-size: 2.2rem;
     margin-bottom: 2.5rem;
     text-align: center;
 }
 
-.infoTabs .info .description {
+.tabsInfo .info .description {
     max-height: 18rem;
     overflow-y: auto;
     padding-right: 1.5rem;
     text-align: justify;
 }
 
-.infoTabs .info .description p {
+.tabsInfo .info .description p {
     font-size: 2rem;
 }
 
-.infoTabs .description span {
+.tabsInfo .description span {
     color: #02D08F;
     font-size: 2.2rem;
 }
