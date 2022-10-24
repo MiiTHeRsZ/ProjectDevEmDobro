@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+*::-webkit-scrollbar {
+    width: 1.2rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #070d12;
+    border-radius: 2rem;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #e228d8;
+    border-radius: 2rem;
+    border: .3rem solid #070d12;
+}
+
 body {
     background-image: url(../imgs/fundo-site.jpg);
     background-repeat: no-repeat;
@@ -18,17 +33,13 @@ body {
 .card {
     background-color: #070D12;
     width: 37rem;
-    border: 2px solid #E126D9;
+    border: 3px solid #E126D9;
     border-radius: 1rem;
     overflow: hidden;
 }
 
 .profilePhoto {
-    width: 10rem;
-}
-
-.tabs img {
-    width: 3rem;
+    width: 15rem;
 }
 
 .card .profileInfo {
@@ -40,7 +51,7 @@ body {
 }
 
 .card .profileInfo img {
-    border-radius: 5rem;
+    border-radius: 50%;
     border: .4rem solid #02D08F;
     object-fit: cover;
 }
@@ -101,7 +112,7 @@ body {
     display: block;
 }
 
-.tabsInfo .subTitle{
+.tabsInfo .subTitle {
     font-size: 2.2rem;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -118,7 +129,12 @@ body {
     font-size: 2rem;
 }
 
-.tabsInfo .description span {
+.tabsInfo .description span:first-of-type {
+    color: #D00243;
+    font-size: 2.2rem;
+}
+
+.tabsInfo .description span:last-of-type {
     color: #02D08F;
     font-size: 2.2rem;
 }
@@ -157,4 +173,3 @@ body {
 .connections .github {
     background-color: #545454;
 }
-
